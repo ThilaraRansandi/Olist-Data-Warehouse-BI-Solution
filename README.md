@@ -64,11 +64,6 @@ Olist-DWBI-Solution/
 6. **Deploy Cube & View Reports:**
    * Deploy the `ssas/Olist_Cube` project to your SSAS instance, then open the Power BI report to refresh and explore the visuals.
 
-## 📈 Results & Key Insights
-The Power BI report connects directly to the SSAS cube and spans three analytical views:
-
-
-
 ## 📈 Dashboard & Key Insights
 
 The 3-page Power BI report connects directly to the SSAS multidimensional cube and tracks sales performance, delivery efficiency, and regional trends:
@@ -86,7 +81,7 @@ The 3-page Power BI report connects directly to the SSAS multidimensional cube a
 ### 2️⃣ Trend Analysis
 ![Trend Analysis](powerbi/Trend_analysis.png)
 
-* 🚀 **2017–2018 Growth:** Monthly orders surged throughout 2017—peaking during the **Nov 2017** Black Friday spike (~7.5K orders)—and stayed strong in **Q1–Q2 2018** (~$2.8M+ revenue per quarter).
+* 🚀 **2017–2018 Growth:** Monthly orders surged throughout 2017—peaking during the **Nov 2017** Black Friday spike (7.5K orders)—and stayed strong in **Q1–Q2 2018** ($2.8M+ revenue per quarter).
 * 🚚 **Faster Deliveries Over Time:** Average delivery time dropped steadily from ~16 days in early 2017 down to ~11 days by mid-2018.
 * 📉 **Late Deliveries Hurt Ratings:** Whenever late delivery rates spiked (such as **Feb–Mar 2018**), average customer review scores dipped sharply below **3.8**.
 
