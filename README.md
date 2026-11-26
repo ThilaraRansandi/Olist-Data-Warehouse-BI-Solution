@@ -65,25 +65,38 @@ Olist-DWBI-Solution/
    * Deploy the `ssas/Olist_Cube` project to your SSAS instance, then open the Power BI report to refresh and explore the visuals.
 
 ## 📈 Results & Key Insights
-
 The Power BI report connects directly to the SSAS cube and spans three analytical views:
 
-1. Executive Summary
-Overall Performance: Recorded $13.45M in total revenue across 98K orders (112K items sold), with $2.23M in freight charges.
 
-Service & Satisfaction: Maintained an average review score of 4.09 / 5.0, with an average delivery time of 12.5 days and a 6.79% late delivery rate.
 
-Geographic & Category Concentration: São Paulo (SP) dominates order volume at 46.33%, followed by Rio de Janeiro (RJ, 14.29%) and Minas Gerais (MG, 12.94%). Top revenue-generating categories include health_beauty, watches_gifts, and bed_bath_table.
+## 📈 Dashboard & Key Insights
 
-2. Trend Analysis
-Growth Trajectory: Order volume and revenue climbed steadily throughout 2017, peaking during the 2017-11 Black Friday surge (~7.5K monthly orders) and maintaining strong quarterly revenue through 2018-Q1 and 2018-Q2 (~$2.8M+ per quarter).
+The 3-page Power BI report connects directly to the SSAS multidimensional cube and tracks sales performance, delivery efficiency, and regional trends:
 
-Logistics & Customer Sentiment: Delivery times improved steadily from ~16 days in early 2017 down to ~11 days in mid-2018. However, spikes in late deliveries (such as 2018-02/03) directly corresponded with noticeable dips in average customer review scores (dropping below 3.8).
+### 1️⃣ Executive Summary
+![Executive Summary](powerbi/Executive_summary.png)
 
-3. Interactive Analysis
-Regional Breakdown (2017 Filter View): Out of $6.11M in 2017 revenue across 44,375 orders, the Southeast region generated $4.76M (~78% of total revenue), followed by the South ($1.01M).
+* 💰 **Total Sales:** Generated **$13.45M** in revenue across **98K** orders (**112K** items sold), plus **$2.23M** in freight charges.
+* ⭐ **Customer Experience:** Achieved an average review score of **4.09 / 5.0**, with an average delivery time of **12.5 days** and a **6.79%** late delivery rate.
+* 📍 **Top States:** São Paulo (`SP`) leads with **46.33%** of all orders, followed by Rio de Janeiro (`RJ`, **14.29%**) and Minas Gerais (`MG`, **12.94%**).
+* 🏆 **Best-Selling Categories:** `health_beauty`, `watches_gifts`, and `bed_bath_table` are the highest revenue-generating categories.
 
-Regional Delivery Disparities: Remote northern states experienced significantly longer transit times—such as Roraima (RR, 32.1 days) and Amapá (AP, 28.9 days)—compared to the national average of 13.0 days.
+---
+
+### 2️⃣ Trend Analysis
+![Trend Analysis](powerbi/Trend_analysis.png)
+
+* 🚀 **2017–2018 Growth:** Monthly orders surged throughout 2017—peaking during the **Nov 2017** Black Friday spike (~7.5K orders)—and stayed strong in **Q1–Q2 2018** (~$2.8M+ revenue per quarter).
+* 🚚 **Faster Deliveries Over Time:** Average delivery time dropped steadily from ~16 days in early 2017 down to ~11 days by mid-2018.
+* 📉 **Late Deliveries Hurt Ratings:** Whenever late delivery rates spiked (such as **Feb–Mar 2018**), average customer review scores dipped sharply below **3.8**.
+
+---
+
+### 3️⃣ Interactive Analysis
+![Interactive Analysis](powerbi/Interactive_analysis.png)
+
+* 🗺️ **Regional Revenue (2017 Filter):** Out of **$6.11M** in 2017 revenue (**44,375** orders), the **Southeast** accounted for **$4.76M** (~78%), followed by the **South** (**$1.01M**).
+* ⏱️ **Logistics Gap in Remote States:** Northern states faced much longer shipping times—such as Roraima (`RR`, **32.1 days**) and Amapá (`AP`, **28.9 days**)—compared to the **13.0-day** national average.
 
 ## ⚠️ Limitations
 
