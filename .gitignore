@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dtproj.user
+*.bak
+*.mdf
+*.ldf
+*.csv
+*.tmp
